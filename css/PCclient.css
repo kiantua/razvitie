@@ -1,0 +1,90 @@
+.main-table {
+    margin: 64px auto 0;
+    border-collapse: collapse;
+}
+
+.row1{
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.row-item{
+    vertical-align: top;
+    height: 302px;
+    width: 24%;
+}
+
+.row-item:first-child,
+.row-item:nth-child(2) {
+    border-right: 2px solid #c9c9c9;
+}
+
+.row-item h3 {
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.row-item h5 {
+    text-align: center;
+    margin: 15px 0 28px;
+}
+
+.big-image {
+    text-align: center;
+}
+
+
+.stats-table {
+    width: 100%;
+    padding-right: 24px;
+}
+
+.stats-table tr td:last-child {
+    text-align: right;
+}
+
+
+
+
+
+.email-work {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../img/PCclient/email-work.png");
+}
+
+.otckluchenie span {
+    text-align: right;
+}
+
+.avarinii-raboti ul {
+    padding: 0;
+}
+
+.avarinii-raboti li {
+    margin: 20px auto 0;
+}
+
+.avarinii-raboti-inner-table{
+    margin: 0 auto;
+}
+
+.repear-status.in-work {
+    width: 36px;
+    height: 33px;
+    background: url("../img/PCclient/RS-inwork.png") no-repeat;
+    background-position: center;
+}
+
+.repear-status.done {
+    width: 36px;
+    height: 36px;
+    background: url("../img/PCclient/RS-done.png") no-repeat;
+    background-position: center;
+}
+
+
+
+
+

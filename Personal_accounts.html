@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Лицевые счета</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Personal_accounts.css">
+    <link rel="stylesheet" href="DataTables/datatables.min.css"/>
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+        <div class="header-content">
+            <nav>
+                <ul class="header-navbar">
+                    <li><a href="">о компании</a></li>
+                    <li><a href="">дома</a></li>
+                    <li><a href="">полезная информация</a></li>
+                    <li><a href="">раскрытие информации</a></li>
+                </ul>
+            </nav>
+            <!--<img class="header-logo" src="img/logo_TOP.png" alt="" >-->
+            <div class="header-right-column">
+
+                <div class="header-login">
+                    <span>ул. 8 марта, Д. 140, КВ 125</span>
+                    <span><a href="">войти в личный кабинет</a></span>
+                    <a href="javascript:confirmRefresh();"><img src="img/refresh_header.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content-background">
+            <table id="example" class="display" width="80%" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Office</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Tiger Nixon</td>
+                    <td>System Architect</td>
+                    <td>Edinburgh</td>
+                </tr>
+                <tr>
+                    <td>Garrett Winters</td>
+                    <td>Accountant</td>
+                    <td>Tokyo</td>
+                </tr>
+                <tr>
+                    <td>Ashton Cox</td>
+                    <td>Junior Technical Author</td>
+                    <td>San Francisco</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="img/footer-logo.png" alt="">
+        </div>
+        <ul class="footer-about-company">
+            <li>2017-2018 © </li>
+            <li>  razvitie-miass@mail.ru</li>
+            <li>г. Миасс, ул.Ак.Павлова  д.8 oф. 314</li>
+        </ul>
+        <div class="footer-contacts">
+            <ul class="social-networks">
+                <li><a href=""><img src="img/twiter.png" alt=""></a></li>
+                <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/google.png" alt=""></a></li>
+                <li><a href=""><img src="img/rss.png" alt=""></a></li>
+            </ul>
+            <img src="img/footer-phone.png" alt="">
+            <ul class="phones">
+                <li>8 (3513) 250-173</li>
+                <li>8 (962) 487-01-73</li>
+            </ul>
+            <button type="button"><img src="img/footer-button.png" alt=""></button>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="DataTables/datatables.min.js"></script>
+<script>
+    $(function(){
+        $("#example").dataTable({
+                language: {
+                    "processing": "Подождите...",
+                    "search": "Поиск:",
+                    "lengthMenu": "Показать _MENU_ записей",
+                    "info": "Записи с _START_ до _END_ из _TOTAL_ записей",
+                    "infoEmpty": "Записи с 0 до 0 из 0 записей",
+                    "infoFiltered": "(отфильтровано из _MAX_ записей)",
+                    "infoPostFix": "",
+                    "loadingRecords": "Загрузка записей...",
+                    "zeroRecords": "Записи отсутствуют.",
+                    "emptyTable": "В таблице отсутствуют данные",
+                    "paginate": {
+                        "first": "Первая",
+                        "previous": "Предыдущая",
+                        "next": "Следующая",
+                        "last": "Последняя"
+                    },
+                    "aria": {
+                        "sortAscending": ": активировать для сортировки столбца по возрастанию",
+                        "sortDescending": ": активировать для сортировки столбца по убыванию"
+                    }
+                }
+        }
+        );
+    })
+</script>
+</body>
+</html>

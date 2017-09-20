@@ -1,0 +1,106 @@
+/***********CONTENT*****************/
+
+
+.content-background {
+    background-image: url("../img/slider-house2.png");
+    background-repeat: no-repeat;
+    background-position: right -90px;
+    background-size: 73% 726px;
+}
+
+.login-form-wrapper {
+    position: relative;
+    border-radius: 35px;
+    margin-left: 5%;
+    min-width: 450px;
+    width: 31.1%;
+    height: 290px;
+    background-image: url("../img/login-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 290px;
+    display: inline-block;
+}
+
+.login-form {
+    margin-left: 14%;
+    margin-top: 20px;
+}
+
+.login-inputs {
+    min-width: 231px;
+    width: 50%;
+    border: none;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.login-form-footer {
+    height: 60px;
+    width: 100%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: absolute;
+    bottom: 0;
+    background: #ff9a04;
+}
+
+
+.slider {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    margin-left: 12%;
+    margin-top: -55px;
+
+}
+
+.slider img {
+    /*height: 100%;*/
+    /*width: inherit;*/
+}
+
+
+.news{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto 34px;
+    width: 81.5%;
+}
+
+.news-item {
+    height: 274px;
+    background: #ffffff;
+    width: 31%;
+}
+
+.news-item-footer {
+    height: 60px;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    background: #ff9a04;
+}
+
+.news-item-footer a {
+    float: right;
+    margin-top: 21px ;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.news-item-footer a:after {
+    content: ">";
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    margin: 0 14px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ffffff;
+    text-decoration: none;
+}

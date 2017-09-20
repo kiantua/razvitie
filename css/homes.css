@@ -1,0 +1,33 @@
+.map {
+    border: solid 2px #ffffff;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.homes {
+    margin: 23px auto;
+    width: 80%;
+    border: none;
+}
+
+.homes td {
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.homes a,
+.homes img{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.homes a span {
+    text-transform: uppercase;
+}
+
+.homes a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

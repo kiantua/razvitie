@@ -1,0 +1,36 @@
+.about-company {
+    margin: 22px auto;
+    width: 80%;
+}
+
+.big-column {
+    width: 42%;
+    border-bottom: 2px solid #a5a5a5;
+    padding: 27px 0;
+}
+
+.no-border {
+    border: none;
+}
+
+.central-column {
+    text-align: center;
+ }
+
+.central-column span {
+    font-size: 92px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #bf7922;
+    background-image: -webkit-linear-gradient(#ff9a04, #bf7922);
+    background-image: -o-linear-gradient(transparent, transparent);
+}
+
+.central-column p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #bf7922;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
