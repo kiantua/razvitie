@@ -1,0 +1,41 @@
+ol {
+    margin-left: 15px;
+}
+
+ol li {
+    list-style: inherit;
+    margin-bottom: 22px;
+}
+
+
+.home-card {
+    width: 72%;
+    margin: 20px auto 0;
+}
+
+.description {
+    width: 70%;
+    margin-bottom: 74px ;
+}
+
+.ds-td {
+    width: 45%;
+    border-right: 2px solid #c9c9c9;
+}
+
+.tarrifs h2 {
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.remonts>p {
+    margin-top: 10px;
+}
+
+.img-cell {
+    width: 32px;
+}
+
+.text-cell {
+    padding-left: 12px;
+}
