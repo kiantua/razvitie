@@ -13,9 +13,18 @@ ol li {
     margin: 20px auto 0;
 }
 
+.home-pictures {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .description {
+    margin-top: 33px;
     width: 70%;
-    margin-bottom: 74px ;
+    margin-bottom: 10px ;
+    border-right: 2px solid #c9c9c9;
+    display: inline-block;
 }
 
 .ds-td {
@@ -23,9 +32,18 @@ ol li {
     border-right: 2px solid #c9c9c9;
 }
 
-.tarrifs h2 {
+.tarrifs {
+    padding-left: 30px;
+}
+
+.tarrifs h2,
+.capital-remonts h2 {
     font-weight: 100;
     margin-bottom: 5px;
+}
+
+.remonts{
+    padding-top: 30px;
 }
 
 .remonts>p {
@@ -38,4 +56,37 @@ ol li {
 
 .text-cell {
     padding-left: 12px;
+}
+
+.capital-remonts{
+    vertical-align: top;
+    padding: 30px;
+}
+
+.capital-remonts p{
+    margin-top:  26px;
+}
+
+.capital-remonts table {
+    width: 70%;
+}
+
+.download-document td:last-child {
+    padding-left: 15px;
+}
+
+.download-document img {
+    vertical-align: middle;
+}
+
+.download-document a {
+    text-decoration: underline;
+}
+
+.documents {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    margin-left: 15px;
 }
