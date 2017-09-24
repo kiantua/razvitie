@@ -14,8 +14,8 @@
             <div class="header-content">
                 <nav>
                     <ul class="header-navbar">
-                        <li><a href="">о компании</a></li>
-                        <li><a href="">дома</a></li>
+                        <li><a href="aboutcompany.html">о компании</a></li>
+                        <li><a href="homes.html">дома</a></li>
                         <li><a href="">полезная информация</a></li>
                         <li><a href="">раскрытие информации</a></li>
                     </ul>
@@ -29,69 +29,93 @@
                         <a href="javascript:confirmRefresh();"><img src="img/refresh_header.png" alt=""></a>
                     </div>
                 </div>
-
-
             </div>
         </header>
         <div class="content">
             <div class="content-background">
                 <div class="login-form-wrapper">
                     <form class="login-form" action="">
-                        <p>Адрес:</p> <select name="adress" id="" class="login-inputs"></select>
-                        <p>Лицеовй счет:</p><input type="text" class="login-inputs">
-                        <p>Пароль:</p><input type="text" class="login-inputs">
+                        <div class="field">
+                            <label for="adress">Адресс: </label>
+                            <select name="adress" id="adress" class="login-inputs"></select>
+                        </div>
+                        <div class="field">
+                            <label for="pers-acc-user">Лицеовй счет:</label>
+                            <input type="text" id = "pers-acc-user" class="login-inputs">
+                        </div>
+                        <div class="field">
+                            <label for="password-user">Пароль: </label>
+                            <input type="password" id = "password-user" class="login-inputs">
+                        </div>
+                        <a href="">Как узнать мой пароль?</a>
                     </form>
-                    <a href="">Как узнать мой пароль</a>
                     <div class="login-form-footer">
-                        <a href="">передать показания счетчиков</a>
-                        <a href="">войти в личный кабинет</a>
+                        <ul>
+                            <li><a href="">передать показания счетчиков</a></li>
+                            <li><button>войти в личный кабинет</button></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="slider">
                     <img src="img/slide1.png" alt="">
                 </div>
-                <div class="extra-hpones">
-                    <ul>
-                        <li>Круглосуточная аварийна: <span>25-01-50</span></li>
-                        <li>Офис (с 9:00 до 18:00): <span>25-01-73</span></li>
-                        <li>Бухгалтер (с 9:00 до 17:00): <span>29-80-46</span></li>
-                    </ul>
+                <div class="extra-phones">
+                    <table>
+                        <tr class="extra-phones-img">
+                            <td>Круглосуточная аварийна:</td>
+                            <td><span>25-01-50</span></td>
+                        </tr>
+                        <tr class="extra-phones-img">
+                            <td>Офис (с 9:00 до 18:00):</td>
+                            <td><span>25-01-73</span></td>
+                        </tr>
+                        <tr class="extra-phones-img">
+                            <td>Бухгалтер (с 9:00 до 17:00):</td>
+                            <td><span>29-80-46</span></td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="news">
                     <div class="news-item">
-                        <h2>Ремонтные работы за декабрь 2016</h2>
-                        <span>05.01.2017</span>
+                        <div class="news-caption">
+                            <h2>Ремонтные работы за декабрь 2016</h2>
+                            <span>05.01.2017</span>
+                        </div>
                         <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                             Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                             В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
                             используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
                             без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                         <div class="news-item-footer">
-                            <a href="">подробнее</a>
+                            <a href=""><span>подробнее</span></a>
                         </div>
                     </div>
                     <div class="news-item">
-                        <h2>Ремонтные работы за декабрь 2016</h2>
-                        <span>05.01.2017</span>
+                        <div class="news-caption">
+                            <h2>Ремонтные работы за декабрь 2016</h2>
+                            <span>05.01.2017</span>
+                        </div>
                         <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                             Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                             В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
                             используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
                             без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                         <div class="news-item-footer">
-                            <a href="">подробнее</a>
+                            <a href=""><span>подробнее</span></a>
                         </div>
                     </div>
                     <div class="news-item">
-                        <h2>Ремонтные работы за декабрь 2016</h2>
-                        <span>05.01.2017</span>
+                        <div class="news-caption">
+                            <h2>Ремонтные работы за декабрь 2016</h2>
+                            <span>05.01.2017</span>
+                        </div>
                         <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                             Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                             В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
                             используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
                             без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                         <div class="news-item-footer">
-                            <a href="">подробнее</a>
+                            <a href=""><span>подробнее</span></a>
                         </div>
                     </div>
                 </div>
