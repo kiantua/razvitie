@@ -91,6 +91,7 @@
     letter-spacing: 1px;
     color: #ffffff;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .login-form-footer a {
@@ -213,7 +214,30 @@
 }
 
 
+.login-admin {
+    z-index: 3;
+    position: absolute;
+    right: 10%;
+    bottom: -75px;
+}
 
+.login-admin h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lff-admin button {
+    padding-left: 25%;
+    background-image: url("../img/admin-footer-button.png");
+}
+
+.login-admin.visible{
+    display: inline;
+}
+
+.login-admin.unseen {
+    display: none;
+}
 
 
 
