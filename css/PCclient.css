@@ -34,6 +34,7 @@
 
 
 .stats-table {
+    font-size: 20px;
     width: 100%;
     padding-right: 24px;
 }
@@ -42,16 +43,23 @@
     text-align: right;
 }
 
-
-
-
+.text-center-td {
+    float: right;
+    width: 43%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+}
 
 .email-work {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 34px;
-    height: 34px;
-    background: url("../img/PCclient/email-work.png");
+    background-image: url("../img/PCclient/email-work.png");
+}
+
+
+.no-telefon {
+    background-image: url("../img/PCclient/warning.png");
 }
 
 .otckluchenie span {
@@ -88,3 +96,48 @@
 
 
 
+@media screen and (max-width: 1400px) {
+    .row-item {
+        width: 15%;
+    }
+
+    .main-table{
+        width: 80%;
+    }
+
+    .big-image img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .stats-table {
+        width: 80%;
+    }
+
+    .text-center-td {
+        width: 65%;
+    }
+
+}
+
+
+
+@media screen and (min-width:1401px) and (max-width: 1680px) {
+    .main-table{
+        width: 80%;
+    }
+
+    .big-image img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .stats-table {
+        width: 80%;
+    }
+
+    .text-center-td {
+        width: 65%;
+    }
+
+}
