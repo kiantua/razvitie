@@ -3,7 +3,7 @@
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    margin: 25px auto;
+    margin: 70px auto 34px;
     width: 81.5%;
 }
 
@@ -11,7 +11,26 @@
     height: 274px;
     background: #ffffff;
     width: 31%;
-    border: 2px solid #c9c9c9;
+    box-shadow: 0 0 10px  #9a9d9d;
+}
+
+.news-item p{
+    padding: 0 16px;
+}
+
+.news-caption {
+    padding: 16px;
+}
+
+.news-caption h2 {
+    display: inline;
+}
+
+.news-caption span {
+    line-height: 22px;
+    vertical-align: middle;
+    font-size: 20px;
+    float: right;
 }
 
 .news-item-footer {
@@ -23,23 +42,79 @@
 }
 
 .news-item-footer a {
+    letter-spacing: 1px;
+    height: 26px;
+    width: 27%;
     float: right;
-    margin-top: 21px ;
+    margin-top: 20px;
     color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: underline;
     font-size: 18px;
+    text-transform: uppercase;
+
+    background-image: url("../img/news-more.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
 }
 
-.news-item-footer a:after {
-    content: ">";
-    width: 24px;
-    height: 24px;
-    border-radius: 24px;
-    margin: 0 14px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    background: #ffffff;
-    text-decoration: none;
+.news-item-footer a span {
+    position: absolute;
+    top: 22px;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .field label {
+        font-size: 15px;
+    }
+
+    .login-form a {
+        margin-left: 44%;
+    }
+
+    .news-item p {
+        font-size: 12px;
+    }
+
+    .news-caption h2 {
+        font-size: 18px;
+    }
+
+    .news-caption span {
+        font-size: 16px;
+    }
+
+    .news-item-footer a {
+        width: 40%;
+    }
+
+}
+
+
+
+@media screen and (min-width:1401px) and (max-width: 1680px) {
+    .field label {
+        font-size: 16px;
+    }
+
+    .login-form a {
+        margin-left: 48%;
+    }
+
+    .news-item p {
+        font-size: 14px;
+    }
+
+    .news-caption h2 {
+        font-size: 18px;
+    }
+
+    .news-caption span {
+        font-size: 16px;
+    }
+
+    .news-item-footer a {
+        width: 35%;
+    }
+
 }
