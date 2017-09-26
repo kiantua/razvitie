@@ -62,20 +62,55 @@
     background-image: url("../img/PCclient/warning.png");
 }
 
-.otckluchenie span {
+
+.disconnection {
+    padding: 0 16px;
+}
+
+.disconnection table {
+    width: 100%;
+}
+
+.disconnection-item table td:last-child {
     text-align: right;
 }
+
+.disconnection-item table td:first-child{
+    width: 61px;
+    text-align: center;
+}
+
+.disconnection-item p {
+    font-size: 24px;
+}
+
+.com-off {
+    background-image: url("../img/PCclient/vicluchenie.png");
+    background-repeat: no-repeat;
+}
+
 
 .avarinii-raboti ul {
     padding: 0;
 }
 
+
 .avarinii-raboti li {
     margin: 20px auto 0;
 }
 
+.avarinii-raboti-inner-table td:nth-child(2) {
+    text-align: center;
+}
+
 .avarinii-raboti-inner-table{
     margin: 0 auto;
+    width: 90%;
+    border-spacing: 0 25px;
+}
+
+.avarinii-raboti-inner-table p>span {
+    margin-left: 16px;
 }
 
 .repear-status.in-work {
