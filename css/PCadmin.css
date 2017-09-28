@@ -3,6 +3,10 @@
     border-collapse: collapse;
 }
 
+table {
+    width: 70%;
+}
+
 .row1{
     border-bottom: 2px solid #c9c9c9;
 }

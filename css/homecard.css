@@ -32,6 +32,10 @@ ol li {
     border-right: 2px solid #c9c9c9;
 }
 
+.statistic {
+    padding: -15px;
+}
+
 .tarrifs {
     padding-left: 30px;
 }
@@ -70,6 +74,7 @@ ol li {
 .capital-remonts table {
     width: 70%;
 }
+
 
 .download-document td:last-child {
     padding-left: 15px;
