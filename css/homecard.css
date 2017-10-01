@@ -7,10 +7,23 @@ ol li {
     margin-bottom: 22px;
 }
 
+.content {
+    font-size: 16px;
+}
+
 
 .home-card {
     width: 72%;
     margin: 20px auto 0;
+}
+
+.home-adress {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.home-adress span {
+    text-transform: uppercase;
 }
 
 .home-pictures {
@@ -19,21 +32,41 @@ ol li {
     justify-content: space-between;
 }
 
+.home-pictures img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .description {
     margin-top: 33px;
-    width: 70%;
-    margin-bottom: 10px ;
+    width: 75%;
+    margin-bottom: 20px ;
     border-right: 2px solid #c9c9c9;
     display: inline-block;
 }
 
+.description tr {
+    overflow: hidden;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.bb {
+    overflow: hidden;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.description tr:last-child {
+    border-top: 2px solid #c9c9c9;
+}
 .ds-td {
     width: 45%;
     border-right: 2px solid #c9c9c9;
 }
 
 .statistic {
-    padding: -15px;
+    clear: both;
+    position: relative;
 }
 
 .tarrifs {

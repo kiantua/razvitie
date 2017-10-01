@@ -1,0 +1,70 @@
+table.dataTable thead th,
+table.dataTable.no-footer{
+    border: none;
+}
+
+#personal_accounts_info,
+.dataTables_length{
+    display: none;
+}
+
+table.dataTable thead .sorting {
+    background-image: none;
+}
+
+.dataTables_wrapper {
+    margin-left: 5%;
+    width: 65%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+#personal_accounts tbody tr:first-child td {
+    /*outline: 1px solid  #c9c9c9; !* Пунктирная рамка *!*/
+    /*outline-offset: -10px; !* Выводим рамку внутри элемента *!*/
+    /*padding: 10px; !* Поля *!*/
+    border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    background: #ffffff;
+    box-shadow: 1px 8px 6px -5px #c9c9c9;
+}
+
+.dataTables_filter input {
+    box-shadow: 1px 8px 6px -5px #c9c9c9;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    background: #ffffff;
+    height: 38px;
+}
+
+.dataTables_filter {
+    font-size: 20px;
+}
+
+.dataTables_filter input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    text-align: center;
+    float: none;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: left;
+    width: 100%;
+    border-bottom: 2px solid #c9c9c9;
+    padding-bottom: 30px;
+}
+
+#personal_accounts {
+    padding-top: 25px;
+}
+div .dt-buttons {
+    position: absolute;
+    right: 15px;
+    bottom: -3px;
+}
