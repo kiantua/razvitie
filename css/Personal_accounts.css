@@ -1,70 +1,128 @@
-table.dataTable thead th,
-table.dataTable.no-footer{
-    border: none;
+.content-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
 }
 
-#personal_accounts_info,
-.dataTables_length{
-    display: none;
+.filters {
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 33px;
+    box-sizing: border-box;
 }
 
-table.dataTable thead .sorting {
-    background-image: none;
+.first_filter {
+    text-align: right;
 }
 
-.dataTables_wrapper {
-    margin-left: 5%;
-    width: 65%;
-    display: inline-block;
-    margin-bottom: 25px;
+.table-wrapper {
+    display: inline-table;
+    width: 80%;
+    margin-top: 33px;
 }
 
-#personal_accounts tbody tr:first-child td {
-    /*outline: 1px solid  #c9c9c9; !* Пунктирная рамка *!*/
-    /*outline-offset: -10px; !* Выводим рамку внутри элемента *!*/
-    /*padding: 10px; !* Поля *!*/
-    border-radius: 10px;
-    border: 1px solid #c9c9c9;
-    background: #ffffff;
-    box-shadow: 1px 8px 6px -5px #c9c9c9;
-}
-
-.dataTables_filter input {
-    box-shadow: 1px 8px 6px -5px #c9c9c9;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 1px solid #c9c9c9;
-    background: #ffffff;
-    height: 38px;
-}
-
-.dataTables_filter {
-    font-size: 20px;
-}
-
-.dataTables_filter input:focus {
-    outline: 0;
-    outline-offset: 0;
-}
-
-.dataTables_wrapper .dataTables_paginate {
-    text-align: center;
-    float: none;
-}
-
-.dataTables_wrapper .dataTables_filter {
-    float: left;
-    text-align: left;
+.personal_accounts {
     width: 100%;
-    border-bottom: 2px solid #c9c9c9;
-    padding-bottom: 30px;
 }
 
-#personal_accounts {
-    padding-top: 25px;
+.personal_accounts thead {
+    text-align: center;
 }
-div .dt-buttons {
+
+.thead-bot-margin {
+    height: 21px;
+}
+
+.personal_accounts tbody tr {
+    height: 33px;
+}
+
+
+.personal_accounts tbody tr:nth-child(2n+1) {
+    background: #e5e5e5;
+}
+
+
+.personal_accounts tbody tr:first-child td {
+    padding-left: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px #c9c9c9;
+    border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    background: #ffffff;
+}
+
+
+.editing-tools {
+    display: inline;
     position: absolute;
-    right: 15px;
-    bottom: -3px;
+    margin-top: 75px;
+    margin-left: 10px;
+
+}
+
+.editing-tools button{
+    font-family: 'MyriadPro-Cond';
+    font-size: 16px;
+    color: #606060;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.editing-tools button img,
+.table-export button img,
+.navigation img
+{
+    vertical-align: middle;
+}
+
+
+.table-export {
+    position: absolute;
+    right: 1px;
+    bottom: 15px;
+}
+
+.table-export button{
+    font-family: 'MyriadPro-Cond';
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #606060;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.table-export button img {
+    margin-right: 10px;
+}
+
+.table-export button:last-child {
+    margin-left: 40px;
+}
+
+.table-navigation {
+    width: 25%;
+    margin: 17px auto;
+}
+
+.navigation {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navigation.back {
+    margin-right: 15px;
+}
+
+.navigation.forward {
+    margin-left: 15px;
+}
+
+.table-navigation input {
+    text-align: right;
+    width: 50px;
+    height: 30px;
 }
