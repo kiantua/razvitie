@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+.filters label {
+    margin-right: 22px;
+}
+
 .first_filter {
     text-align: right;
 }
