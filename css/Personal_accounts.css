@@ -5,9 +5,42 @@
 }
 
 .filters {
+    font-family: 'MyriadPro-Cond';
+    color: #606060;
+    font-size: 18px;
     border-bottom: 2px solid #c7c7c7;
-    padding-bottom: 33px;
+    padding: 15px 0 33px;
     box-sizing: border-box;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.filters select {
+    background-image: url("../img/Personal_accounts/select-arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    font-family: 'MyriadPro-Cond';
+    color: #606060;
+    font-size: 18px;
+    /*direction: rtl;*/
+    min-width: 250px;
+    width: 250px;
+    outline: none;
+    text-align:right;
+    padding: 4px 4px 4px 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #bcbcbc;
+    -webkit-appearance: none;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none!important;
 }
 
 .filters label {
@@ -18,9 +51,17 @@
     text-align: right;
 }
 
+
+.filters img {
+    vertical-align: middle;
+    margin: 0 50px;
+}
+
+
+
 .table-wrapper {
     display: inline-table;
-    width: 80%;
+    width: 100%;
     margin-top: 33px;
 }
 
@@ -55,13 +96,26 @@
     background: #ffffff;
 }
 
+.personal_accounts tbody tr:first-child td:last-child {
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 10px;
+    width: 160px;
+
+}
 
 .editing-tools {
-    display: inline;
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 10px;
+    visibility: hidden;
+    background: none;
+    border: none;
+    padding-left: 10px;
+    width: 160px;
+}
 
+.personal_accounts tr:hover .editing-tools{
+    visibility: visible;
 }
 
 .editing-tools button{
@@ -72,6 +126,7 @@
     border: none;
     background: none;
     cursor: pointer;
+    margin-right: 5px;
 }
 .editing-tools button img,
 .table-export button img,
@@ -79,6 +134,8 @@
 {
     vertical-align: middle;
 }
+
+
 
 
 .table-export {
@@ -108,7 +165,7 @@
 
 .table-navigation {
     width: 25%;
-    margin: 17px auto;
+    margin: 25px auto;
 }
 
 .navigation {

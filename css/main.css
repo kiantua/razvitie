@@ -56,6 +56,7 @@ header nav {
 }
 
 .header-content {
+    position: relative;
     height: inherit;
     background: url("../img/header3.png") no-repeat;
     background-size: 100% 216px;
@@ -116,9 +117,28 @@ header nav {
     margin-top: -48px;
 }
 
-.page-navigation{}
+.page-navigation{
+    width: 77%;
+    position: absolute;
+    padding: 0 10%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.page-navigation span {
+    font-size: 32px;
+}
 
+.page-navigation  a{
+    padding-left: 60px;
+    font-size: 22px;
+    text-decoration: underline;
+    line-height: 42px;
+    vertical-align: middle;
+    background-image: url("../img/header-back-button.png");
+    background-repeat: no-repeat;
+}
 
 
 
