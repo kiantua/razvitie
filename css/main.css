@@ -338,7 +338,7 @@ footer button:hover {
     z-index: 3;
     position: absolute;
     right: 10%;
-    bottom: -75px;
+    bottom: 65px;
 }
 
 .login-admin h5 {

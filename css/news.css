@@ -63,6 +63,12 @@
 }
 
 
+.login-admin {
+
+    bottom: -300px;
+}
+
+
 @media screen and (max-width: 1400px) {
     .field label {
         font-size: 15px;

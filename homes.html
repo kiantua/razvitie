@@ -30,6 +30,9 @@
                     <a href="javascript:confirmRefresh();"><img src="img/refresh_header.png" alt=""></a>
                 </div>
             </div>
+            <div class="page-navigation">
+                <span>дома под управлением ук "развитие"</span>
+            </div>
         </div>
     </header>
 
@@ -118,10 +121,34 @@
                 <li>8 (3513) 250-173</li>
                 <li>8 (962) 487-01-73</li>
             </ul>
-            <button type="button"><img src="img/footer-button.png" alt=""></button>
+            <button class="show-admin-login"><img src="img/footer-button.png" alt=""></button>
+        </div>
+        <div class="login-form-wrapper login-admin hidden">
+            <h5>Входя для сотрудников УК "Развитие"</h5>
+            <form class="login-form login-form-admin" action="">
+                <div class="field">
+                    <label for="service">Служба: </label>
+                    <select name="service" id="service" class="login-inputs"></select>
+                </div>
+                <div class="field">
+                    <label for="admin-login">Логин:</label>
+                    <input type="text" id = "admin-login" class="login-inputs">
+                </div>
+                <div class="field">
+                    <label for="admin-password">Пароль: </label>
+                    <input type="password" id = "admin-password" class="login-inputs">
+                </div>
+            </form>
+            <div class="login-form-footer lff-admin">
+                <ul>
+                    <li><a href="">войти в кабинет сотрудника</a></li>
+                    <li><button class="hide-admin-login" >cкрыть</button></li>
+                </ul>
+            </div>
         </div>
     </footer>
-
 </div>
+
+<script type="text/javascript" src="JS/main.js"></script>
 </body>
 </html>
