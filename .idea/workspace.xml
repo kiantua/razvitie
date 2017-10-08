@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41c7071f-8b1c-4327-892e-710d18c261fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PCadmin.html" afterPath="$PROJECT_DIR$/PCadmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PCclient.html" afterPath="$PROJECT_DIR$/PCclient.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Personal_accounts.html" afterPath="$PROJECT_DIR$/Personal_accounts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutcompany.html" afterPath="$PROJECT_DIR$/aboutcompany.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news.css" afterPath="$PROJECT_DIR$/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homecard.html" afterPath="$PROJECT_DIR$/homecard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homes.html" afterPath="$PROJECT_DIR$/homes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pokazanie.html" afterPath="$PROJECT_DIR$/pokazanie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signglenews.html" afterPath="$PROJECT_DIR$/signglenews.html" />
-    </list>
+    <list default="true" id="41c7071f-8b1c-4327-892e-710d18c261fa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -378,16 +365,16 @@
       <workItem from="1507133333925" duration="4403000" />
       <workItem from="1507145514622" duration="19374000" />
       <workItem from="1507315748143" duration="848000" />
-      <workItem from="1507396568927" duration="19431000" />
+      <workItem from="1507396568927" duration="20028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293958000" />
+    <option name="totallyTimeSpent" value="294555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
