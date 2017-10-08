@@ -346,10 +346,30 @@ footer button:hover {
     margin-top: 20px;
 }
 
-.lff-admin button {
-    padding-left: 20%;
-    background-image: url("../img/admin-footer-button.png");
+.lff-admin  ul{
+    position: relative;
 }
+
+.lff-admin  ul li {
+    width: 30%;
+    display: table-cell;
+    text-align: center;
+}
+
+.lff-admin button {
+    padding-left: 40%;
+    width: 100%;
+    margin: 0;
+    line-height: normal;
+    position: relative;
+    background-image: url("../img/admin-footer-button.png");
+    background-position-x: 90%;
+}
+
+
+
+
+
 
 .visible {
     visibility: visible;
@@ -404,7 +424,7 @@ footer button:hover {
     }
     .login-form-footer button,
     .login-form-footer a{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
