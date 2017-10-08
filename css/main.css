@@ -152,10 +152,6 @@ header nav {
     overflow: hidden;
 }
 
-
-
-
-
     /************ FOOTER ********/
 
 
@@ -226,11 +222,6 @@ footer button {
     width: 42px;
     height: 42px;
     line-height: 42px;
-    /*text-align: center;*/
-    /*vertical-align: middle;*/
-    /*color: white;*/
-    /*background: #ff9a02;*/
-    /*font-size: 30px;*/
     outline: none;
     border: none;
 }
@@ -238,6 +229,137 @@ footer button {
 footer button:hover {
     opacity: 0.9;
 }
+
+.login-form-wrapper {
+    box-sizing: content-box;
+    position: relative;
+    border-radius: 35px;
+    margin-left: 5%;
+    min-width: 450px;
+    width: 31.1%;
+    height: 290px;
+    background-image: url("../img/login-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 290px;
+    display: inline-block;
+}
+
+.login-form {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+}
+
+.field {
+    line-height: 40px;
+    clear:both;
+    text-align:right;
+    margin-top: 18px;
+}
+
+.field label {
+    float: left;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.login-form a {
+    text-decoration: underline;
+    float: none;
+    margin-left: 52%;
+}
+
+.login-inputs {
+    font-size: 16px;
+    min-width: 231px;
+    width: 65%;
+    border: none;
+    height: 38px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px  #9a9d9d;
+}
+
+.login-form-footer {
+
+    height: 60px;
+    width: 100%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: absolute;
+    bottom: 0;
+    background: #ff9a04;
+}
+
+
+.login-form-footer ul {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.login-form-footer li {
+    width: 45%;
+    display: inline;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.login-form-footer li:first-child {
+    border-right: 1px solid white;
+}
+
+.login-form-footer a,
+.login-form-footer button {
+    font-family: 'MyriadPro-Cond';
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.login-form-footer a {
+    text-decoration: underline;
+}
+
+
+.login-form-footer button {
+    width: 40%;
+    text-align: left;
+    height: 26px;
+    background: none;
+    border: none;
+    background-image: url("../img/login-footer-button.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+
+
+.login-admin {
+    z-index: 3;
+    position: absolute;
+    right: 10%;
+    bottom: -75px;
+}
+
+.login-admin h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lff-admin button {
+    padding-left: 20%;
+    background-image: url("../img/admin-footer-button.png");
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
 
 
 
@@ -260,7 +382,10 @@ footer button:hover {
     footer button {
         margin-left: 19%;
     }
-
+    .login-form-footer button,
+    .login-form-footer a{
+        font-size: 14px;
+    }
 
 
 }
@@ -276,6 +401,10 @@ footer button:hover {
 
     footer button {
         margin-left: 16%;
+    }
+    .login-form-footer button,
+    .login-form-footer a{
+        font-size: 14px;
     }
 
 }

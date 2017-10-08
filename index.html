@@ -31,6 +31,7 @@
                 </div>
             </div>
         </header>
+
         <div class="content">
             <div class="content-background">
                 <div class="login-form-wrapper">
@@ -119,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="login-form-wrapper login-admin visible">
+                <div class="login-form-wrapper login-admin">
                     <h5>Входя для сотрудников УК "Развитие"</h5>
                     <form class="login-form login-form-admin" action="">
                         <div class="field">
@@ -138,14 +139,16 @@
                     <div class="login-form-footer lff-admin">
                         <ul>
                             <li><a href="">войти в кабинет сотрудника</a></li>
-                            <li><button>cкрыть</button></li>
+                            <li><button class="hide-admin-login" >cкрыть</button></li>
                         </ul>
                     </div>
+                </div>
             </div>
         </div>
 
 
         <footer>
+
             <div class="footer-logo">
                 <img src="img/footer-logo.png" alt="">
             </div>
@@ -166,9 +169,11 @@
                     <li>8 (3513) 250-173</li>
                     <li>8 (962) 487-01-73</li>
                 </ul>
-                <button type="button"><img src="img/footer-button.png" alt=""></button>
+                <button class="show-admin-login"><img src="img/footer-button.png" alt=""></button>
             </div>
         </footer>
     </div>
+
+        <script type="text/javascript" src="JS/main.js"> </script>
 </body>
 </html>
