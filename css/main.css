@@ -58,8 +58,8 @@ header nav {
 .header-content {
     position: relative;
     height: inherit;
-    background: url("../img/header3.png") no-repeat;
-    background-size: 100% 216px;
+    background: url("../img/header4.png") no-repeat;
+    background-size: 100% 100%;
 }
 
 .header-navbar {
@@ -82,11 +82,15 @@ header nav {
     margin-left: 28%;
 }
 
-/*.header-logo {*/
-    /*position: relative;*/
-    /*margin-left: 44.52%;*/
-    /*margin-top: -55px;*/
-/*}*/
+.logo-wrapper {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.header-logo {
+    margin-top:-55px;
+}
 
 .header-right-column{
     font-size: 12px;
@@ -396,6 +400,10 @@ footer button:hover {
         margin-left: 55.6%;
     }
 
+    .page-navigation span {
+        font-size: 24px;
+    }
+
     .footer-contacts {
         margin-left: 22.6%;
     }
@@ -413,6 +421,10 @@ footer button:hover {
 @media screen and (min-width:1401px) and (max-width: 1680px) {
     header {
         font-size: 18px;
+    }
+
+    .page-navigation span {
+        font-size: 28px;
     }
 
     .footer-contacts {
