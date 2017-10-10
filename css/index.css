@@ -2,27 +2,26 @@
 
 
 .content-background {
-    background-image: url("../img/slider-house2.png");
-    background-repeat: no-repeat;
-    background-position: right -90px;
-    background-size: 73% 726px;
+    /*background-image: url("../img/slider-house2.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right -90px;*/
+    /*background-size: 73% 726px;*/
 }
 
 
 .slider {
+    background-image: url("../img/slide1.png");
     position: absolute;
-    display: inline-block;
-    width: 45%;
-    margin-left: 12%;
-    margin-top: -55px;
-    overflow: hidden;
+    display: inline;
+    width: 90%;
+    height: 70%;
+    background-position: right -50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 10%;
+    overflow: auto;
     box-sizing: content-box;
 }
-
-.slider img {
-    width: 100%;
-}
-
 
 
 .extra-phones {
@@ -30,6 +29,7 @@
     margin-left: 5%;
     margin-top: 48px;
     font-size: 20px;
+    z-index: 5;
 }
 
 .extra-phones span {
@@ -64,13 +64,15 @@
 }
 
 .news-item {
-    height: 274px;
+    min-height: 300px;
+    overflow: auto;
     background: #ffffff;
     width: 31%;
     box-shadow: 0 0 10px  #9a9d9d;
 }
 
 .news-item p{
+
     padding: 0 16px;
 }
 
@@ -134,9 +136,9 @@
         margin-left: 44%;
     }
 
-    .news-item p {
-        font-size: 12px;
-    }
+    /*.news-item p {*/
+        /*font-size: 12px;*/
+    /*}*/
 
     .news-caption h2 {
         font-size: 18px;
