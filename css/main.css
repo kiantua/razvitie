@@ -146,6 +146,15 @@ header nav {
 }
 
 
+.header-login  > a.duble {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 1.8%;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: -45px;
+}
+
 
 
 
@@ -422,6 +431,10 @@ footer button:hover {
         font-size: 14px;
     }
 
+    .header-login  > a.duble {
+        margin-left: -10px;
+    }
+
 
 }
 
@@ -444,6 +457,13 @@ footer button:hover {
     .login-form-footer button,
     .login-form-footer a{
         font-size: 16px;
+    }
+
+    .header-login  > a.duble {
+        font-size: 18px;
+        height: auto;
+        line-height: 32px;
+        vertical-align: middle;
     }
 
 }
