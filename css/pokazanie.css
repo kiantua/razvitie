@@ -93,9 +93,6 @@ input[type='number'] {
 }
 
 
-
-
-
 .send-data {
     padding: 0 2px;
     font-family: 'MyriadPro-Cond';
@@ -132,4 +129,31 @@ input[type='number'] {
 
 .send-data span {
     margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .counters-wrapper {
+        margin: 48px 0 0;
+    }
+
+    .counters-item {
+    }
+
+}
+
+
+
+@media screen and (min-width:1401px) and (max-width: 1680px) {
+    .counters-wrapper {
+        margin: 48px 8% 0;
+
+    }
+
+    .counters-item {
+        width: 416px;
+        height: 430px;
+    }
+
 }
