@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Лицевые счета</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Personal_accounts.css">
+    <link rel="stylesheet" href="css/dobavit.css">
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+        <div class="header-content">
+            <nav>
+                <ul class="header-navbar">
+                    <li><a href="aboutcompany.html">о компании</a></li>
+                    <li><a href="homes.html">дома</a></li>
+                    <li><a href="">полезная информация</a></li>
+                    <li><a href="">раскрытие информации</a></li>
+                </ul>
+            </nav>
+            <div class="logo-wrapper">
+                <a href="http://razvitie.westarinsky.com/"><img class="header-logo" src="img/logo_TOP.png" alt="" ></a>
+            </div>
+            <div class="header-right-column">
+                <div class="header-login">
+                    <a href="pokazanie.html" class="duble">Передать показания</a>
+                    <!--<span>ул. 8 марта, Д. 140, КВ 125</span>-->
+                    <!--<span><a href="">войти в личный кабинет</a></span>-->
+                    <!--<a href="javascript:confirmRefresh();"><img src="img/refresh_header.png" alt=""></a>-->
+                </div>
+            </div>
+            <div class="page-navigation">
+                <span>ук "развитие" в цифрах</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="content-background">
+            <div class="content-wrapper">
+                <div class="table-wrapper">
+                    <form method="post" action="">
+                        <table cellspacing="10" cellpadding="15" style=" float: left; margin-right: 50px; ">
+                            <thead>
+                            <tr>
+
+                                <td><h2>Основные данные</h2></td>
+                            </tr>
+                            <tr>
+                                <td>Поле</td>
+                                <td>Значение</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>№ лицевого счета</td>
+                                <td><input type="text" name="number" value="444444"></td>
+                            </tr>
+                            <tr>
+                                <td>Адрес дома (дом)</td>
+                                <td>
+                                    <select name="street" id="">
+                                        <option value="">-</option>
+                                        <option value="13" >ул. 8 Марта, д. 142</option>
+                                        <option value="14" >ул. 8 Марта, д. 144</option>
+                                        <option value="15" >ул. 8 Марта, д. 152</option>
+                                        <option value="16" >ул. 8 Марта, д. 191</option>
+                                        <option value="17" >ул. Ветеранов, д. 9</option>
+                                        <option value="18" >ул. Ильменская, д. 115</option>
+                                        <option value="19" >ул. С.Разина, д. 8</option>
+                                        <option value="20" selected>ул. Ак. Павлова, д. 41</option>
+                                        <option value="21" >ул. Колесова, д. 19</option>
+                                        <option value="7" >ул. 8 Марта, д. 140</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>№ квартиры</td>
+                                <td><input type="number" name="flat" value="4"></td>
+                            </tr>
+                            <tr>
+                                <td>Фамилия</td>
+                                <td><input type="text" name="before_name" value="Скляров"></td>
+                            </tr>
+                            <tr>
+                                <td>Имя</td>
+                                <td><input type="text" name="name" value="Максим"></td>
+                            </tr>
+                            <tr>
+                                <td>Отчество</td>
+                                <td><input type="text" name="after_name" value="Шевцов"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <table cellspacing="10" cellpadding="15">
+                            <thead>
+                            <tr>
+                                <td><h2>Дополнительные данные</h2></td>
+                            </tr>
+                            <tr>
+                                <td>Поле</td>
+                                <td>Значение</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Пароль</td>
+                                <td><input type="text" name="password" value="12345"></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><input type="email" name="email" value="mail@gmail.com"></td>
+                            </tr>
+                            <tr>
+                                <td>Телефон</td>
+                                <td><input type="text" name="phone" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Телефон 2</td>
+                                <td><input type="text" name="phone2" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Рассылка (да/нет)</td>
+                                <td>
+                                    <input type="checkbox" name="mailing" value="1" checked>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>№ лицевого счета в РЦ</td>
+                                <td><input type="number" name="number_rc" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>№ лицевого счета в ЭнСер</td>
+                                <td><input type="number" name="number_enser" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>№ лицевого счета в Сбыт</td>
+                                <td><input type="number" name="number_sbit" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>№ лицевого счета в Водоканал</td>
+                                <td><input type="number" name="number_vodokanal" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Прописано человек</td>
+                                <td><input type="number" name="people" value="0"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Фактически проживают</td>
+                                <td><input type="number" name="live" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Доля</td>
+                                <td><input type="text" name="part" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Дата рождения</td>
+                                <td>
+                                    <input type="date" name="birthday[]" value="2017-10-09">
+                                    <input type="time" name="birthday[]" value="09:21:00">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Место рождения</td>
+                                <td><input type="text" name="born_address" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Дата прописки</td>
+                                <td>
+                                    <input type="date" name="born_date[]" value="2017-10-10">
+                                    <input type="time" name="born_date[]" value="08:00:00">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>№ СГРП</td>
+                                <td><input type="number" name="number_sgrp" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Дата СГРП</td>
+                                <td>
+                                    <input type="date" name="date_sgrp[]" value="0000-00-00">
+                                    <input type="time" name="date_sgrp[]" value="00:00:00">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Серия парспорта</td>
+                                <td><input type="text" name="passport_series" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>№ паспорта</td>
+                                <td><input type="number" name="passport_number" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Кем выдан паспорт</td>
+                                <td><input type="text" name="passport_issued" value=""></td>
+                            </tr>
+
+                            <tr>
+                                <td>Когда выдан паспорт</td>
+                                <td>
+                                    <input type="date" name="passport_date[]" value="0000-00-00">
+                                    <input type="time" name="passport_date[]" value="00:00:00">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Код. под</td>
+                                <td><input type="text" name="passport_code" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Гражданство</td>
+                                <td><input type="text" name="citizenship" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>СНИЛС</td>
+                                <td><input type="number" name="snils" value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Пол (м/ж)</td>
+                                <td>
+                                    <select name="gender" id="">
+                                        <option value="">-</option>
+                                        <option value="1" selected>М</option>
+                                        <option value="2" >Ж</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Основной (да/нет)</td>
+                                <td>
+                                    <input type="checkbox" name="general" value="1" >
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <a href="" id="add_citizen">Добавить жильца</a>
+                        <br><br>
+
+                        <div id="citizens">
+                            <table  class="new_citizen" cellspacing="10" cellpadding="15" style=" float: left; margin-right: 50px;" >
+                                <thead>
+                                <tr>
+                                    <td><h2>Данные жильцов</h2></td>
+                                </tr>
+                                <tr>
+                                    <td>Поле</td>
+                                    <td>Значение</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Фамилия</td>
+                                    <td><input type="text" name="citizens[before_name][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Имя</td>
+                                    <td><input type="text" name="citizens[name][]" value="Второй"></td>
+                                </tr>
+                                <tr>
+                                    <td>Отчество</td>
+                                    <td><input type="text" name="citizens[after_name][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Доля</td>
+                                    <td><input type="text" name="citizens[part][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Дата рождения</td>
+                                    <td>
+                                        <input type="date" name="citizens[birthday_d][]" value="">
+                                        <input type="time" name="citizens[birthday_t][]" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Место рождения</td>
+                                    <td><input type="text" name="citizens[born_address][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Дата прописки</td>
+                                    <td>
+                                        <input type="date" name="citizens[born_date_d][]" value="">
+                                        <input type="time" name="citizens[born_date_t][]" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Дата регистрации</td>
+                                    <td>
+                                        <input type="date" name="citizens[date_reg_d][]" value="">
+                                        <input type="time" name="citizens[date_reg_t][]" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>№ СГРП</td>
+                                    <td><input type="text" name="citizens[number_sgrp][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Дата СГРП</td>
+                                    <td>
+                                        <input type="date" name="citizens[date_sgrp_d][]" value="">
+                                        <input type="time" name="citizens[date_sgrp_t][]" value="">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Серия паспорта</td>
+                                    <td><input type="text" name="citizens[passport_series][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>№ паспорта</td>
+                                    <td><input type="text" name="citizens[passport_number][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Кем выдан паспорт</td>
+                                    <td><input type="text" name="citizens[passport_issued][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Когда выдан паспорт</td>
+                                    <td>
+                                        <input type="date" name="citizens[passport_date_d][]" value="">
+                                        <input type="time" name="citizens[passport_date_t][]" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Код. под</td>
+                                    <td><input type="text" name="citizens[passport_code][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Гражданство</td>
+                                    <td><input type="text" name="citizens[citizenship][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>СНИЛС</td>
+                                    <td><input type="text" name="citizens[snils][]" value=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Пол (м/ж)</td>
+                                    <td><input type="text" name="citizens[gender][]" value=""></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table cellspacing="10" cellpadding="15" style=" float: left; margin-right: 50px; ">
+                            <thead>
+                            <tr>
+                                <td><h2>Данные жильцов</h2></td>
+                            </tr>
+                            <tr>
+                                <td>Поле</td>
+                                <td>Значение</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Фамилия</td>
+                                <td><input type="text" name="citizens[before_name][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Имя</td>
+                                <td><input type="text" name="citizens[name][]" value="Первый"></td>
+                            </tr>
+                            <tr>
+                                <td>Отчество</td>
+                                <td><input type="text" name="citizens[after_name][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Доля</td>
+                                <td><input type="text" name="citizens[part][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Дата рождения</td>
+                                <td>
+                                    <input type="date" name="citizens[birthday_d][]" value="">
+                                    <input type="time" name="citizens[birthday_t][]" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Место рождения</td>
+                                <td><input type="text" name="citizens[born_address][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Дата прописки</td>
+                                <td>
+                                    <input type="date" name="citizens[born_date_d][]" value="">
+                                    <input type="time" name="citizens[born_date_t][]" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Дата регистрации</td>
+                                <td>
+                                    <input type="date" name="citizens[date_reg_d][]" value="">
+                                    <input type="time" name="citizens[date_reg_t][]" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>№ СГРП</td>
+                                <td><input type="text" name="citizens[number_sgrp][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Дата СГРП</td>
+                                <td>
+                                    <input type="date" name="citizens[date_sgrp_d][]" value="">
+                                    <input type="time" name="citizens[date_sgrp_t][]" value="">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Серия паспорта</td>
+                                <td><input type="text" name="citizens[passport_series][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>№ паспорта</td>
+                                <td><input type="text" name="citizens[passport_number][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Кем выдан паспорт</td>
+                                <td><input type="text" name="citizens[passport_issued][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Когда выдан паспорт</td>
+                                <td>
+                                    <input type="date" name="citizens[passport_date_d][]" value="">
+                                    <input type="time" name="citizens[passport_date_t][]" value="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Код. под</td>
+                                <td><input type="text" name="citizens[passport_code][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Гражданство</td>
+                                <td><input type="text" name="citizens[citizenship][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>СНИЛС</td>
+                                <td><input type="text" name="citizens[snils][]" value=""></td>
+                            </tr>
+                            <tr>
+                                <td>Пол (м/ж)</td>
+                                <td><input type="text" name="citizens[gender][]" value=""></td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                        <div style="clear: both;">
+                            <input type="submit" name="add" value="ОБНОВИТЬ СЧЕТ">
+                        </div>
+
+                        <input type="hidden" name="id" value="8">
+                    </form>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="img/footer-logo.png" alt="">
+        </div>
+        <ul class="footer-about-company">
+            <li>2017-2018 © </li>
+            <li>  razvitie-miass@mail.ru</li>
+            <li>г. Миасс, ул.Ак.Павлова  д.8 oф. 314</li>
+        </ul>
+        <div class="footer-contacts">
+            <ul class="social-networks">
+                <li><a href=""><img src="img/twiter.png" alt=""></a></li>
+                <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/google.png" alt=""></a></li>
+                <li><a href=""><img src="img/rss.png" alt=""></a></li>
+            </ul>
+            <img src="img/footer-phone.png" alt="">
+            <ul class="phones">
+                <li>8 (3513) 250-173</li>
+                <li>8 (962) 487-01-73</li>
+            </ul>
+            <button type="button"><img src="img/footer-button.png" alt=""></button>
+        </div>
+    </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var table = $('.new_citizen').prop('outerHTML');
+        $('#add_citizen').on('click', function(e) {
+            $('#citizens').append(table);
+            $('#citizens table:last-child input').val('');
+            e.preventDefault();
+        });
+    });
+</script>
+
+</body>
+</html>
