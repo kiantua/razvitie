@@ -1,0 +1,188 @@
+.form {
+    margin: 48px 12.6% 0;
+}
+
+
+
+
+.filters {
+    font-family: 'MyriadPro-Cond';
+    color: #606060;
+    font-size: 18px;
+    padding: 15px 0 33px;
+    box-sizing: border-box;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.filters select {
+    background-image: url("../img/Personal_accounts/select-arrow.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    font-family: 'MyriadPro-Cond';
+    color: #606060;
+    font-size: 18px;
+    /*direction: rtl;*/
+    min-width: 250px;
+    width: 250px;
+    outline: none;
+    text-align:right;
+    padding: 4px 4px 4px 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #bcbcbc;
+    -webkit-appearance: none;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none!important;
+}
+
+.filters label {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.first_filter {
+    text-align: right;
+}
+
+
+.filters img {
+    vertical-align: middle;
+    margin: 0 50px;
+}
+
+
+.warning {
+    margin-left: 4%;
+    position: absolute;
+    width: 25%;
+    display: inline-block;
+}
+
+.warning_img-wrapper {
+    display: inline-block;
+    line-height: 100%;
+}
+
+.warning img {
+    top: 4px;
+    position: absolute;
+    margin: 0;
+}
+
+.warning p {
+    position: absolute;
+    display: inline-block;
+    left: 15%;
+    width: 80%;
+    font-size: 14px;
+}
+
+
+.textarea-wrapper {
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 20px;
+}
+
+.textarea-wrapper textarea {
+    resize: none;
+    border-radius: 15px;
+    width: 75%;
+    padding: 10px;
+    outline: none;
+}
+
+
+.rules-wrapper{
+    margin-top: 20px;
+}
+
+.rules-wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+.textarea-wrapper_text {
+    margin-right: 22px;
+    width: 14%;
+    display: inline-block;
+    vertical-align: top;
+}
+.textarea-wrapper_text h3 {
+    margin-bottom: 27px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.textarea-wrapper_text p {
+    font-size: 14px;
+}
+
+.send-data {
+    padding: 0 2px;
+    font-family: 'MyriadPro-Cond';
+    color: #606060;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 34px auto 0;
+    display: block;
+    /*line-height: 80px;*/
+    height: 80px;
+    width: 362px;
+    background: url("../img/createTicket/button-background.png") no-repeat;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.send-data,
+.send-data:active,
+.send-data:hover
+{
+    border: none;
+    outline: none;
+}
+
+.send-data:active {
+    border: 2px solid darkgrey;
+}
+
+.send-data img {
+    line-height: inherit;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+
+.send-data span {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .form {
+        margin: 48px 5% 0;
+    }
+
+}
+
+@media screen and (min-width:1401px) and (max-width: 1680px) {
+    .form {
+        margin: 48px 8% 0;
+
+    }
+
+}
