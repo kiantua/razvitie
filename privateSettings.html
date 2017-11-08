@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Настройки ЛК</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/privateSettings.css">
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+        <div class="header-content">
+            <div class="header-content">
+                <nav>
+                    <ul class="header-navbar">
+                        <li><a href="aboutcompany.html">о компании</a></li>
+                        <li><a href="homes.html">дома</a></li>
+                        <li><a href="">полезная информация</a></li>
+                        <li><a href="">раскрытие информации</a></li>
+                    </ul>
+                </nav>
+                <div class="logo-wrapper">
+                    <a href="http://razvitie.westarinsky.com/"><img class="header-logo" src="img/logo_TOP.png" alt="" ></a>
+                </div>
+                <div class="header-right-column">
+                    <div class="header-login">
+                        <a href="pokazanie.html" class="duble">Передать показания</a>
+                        <!--<span>ул. 8 марта, Д. 140, КВ 125</span>-->
+                        <!--<span><a href="">войти в личный кабинет</a></span>-->
+                        <!--<a href="javascript:confirmRefresh();"><img src="img/refresh_header.png" alt=""></a>-->
+                    </div>
+                </div>
+                <div class="page-navigation">
+                    <span>лицевые счета</span>
+                    <a href="">назад в личный кабинет</a>
+                </div>
+            </div>
+    </header>
+
+
+    <div class="content">
+        <div class="content-background">
+            <form class="form" action="">
+                <h1>персональные данные</h1>
+                <div class="inputs">
+                    <div class="change-password">
+                        <h3>Сменить пароль:</h3>
+                        <div class="input-item">
+                            <label for="old_password">Текущий пароль</label>
+                            <input type="text" id="old_password">
+                        </div>
+                        <img src="img/privateSettings/filters_arrow.png"  alt="">
+                        <div class="input-item">
+                            <label for="new_password">Новый пароль</label>
+                            <input type="text" id="new_password">
+                        </div>
+                        <div class="input-item">
+                            <label for="repeat_new_password">Новый пароль еще раз</label>
+                            <input type="text" id="repeat_new_password">
+                        </div>
+                    </div>
+                    <div class="contacts-change">
+                        <h3>e-mail:</h3>
+                        <div class="input-item">
+                            <input type="email" id="e-mail">
+                            <h3>Получать уведомлени по почте:</h3>
+                            <input type="checkbox" class="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="rules-wrapper">
+                    <h1>правила рассмотрения заявки</h1>
+                    <div class="rules">
+                        Воспользовавшись любой из указанных выше возможностей по использованию Сервиса вы подтверждаете, что:<br>
+                        а) Ознакомились с условиями настоящего Соглашения в полном объеме до начала использования Сервиса.<br>
+                        б) Принимаете все условия настоящего Соглашения в полном объеме без каких-либо изъятий и ограничений
+                        с вашей стороны и обязуетесь их соблюдать или прекратить использование Сервиса. Если вы не согласны
+                        с условиями настоящего Соглашения или не имеете права на заключение договора на их основе, вам следует
+                        незамедлительно прекратить любое использование Сервиса.<br>
+                        в) Соглашение (в том числе любая из его частей) может быть изменено Администрацией без какого-либо
+                        специального уведомления. Новая редакция Соглашения вступает в силу с момента ее размещения на
+                        Сайте Администрации либо доведения до сведения Пользователя в иной удобной форме, если иное не
+                        предусмотрено новой редакцией Соглашения.<br>
+                    </div>
+                </div>
+
+
+            </form>
+            <button class="send-data"><span>сохранить и закрыть</span> <img src="img/createTicket/arrow.png" alt=""></button>
+
+
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-logo">
+            <img src="img/footer-logo.png" alt="">
+        </div>
+        <ul class="footer-about-company">
+            <li>2017-2018 © </li>
+            <li>  razvitie-miass@mail.ru</li>
+            <li>г. Миасс, ул.Ак.Павлова  д.8 oф. 314</li>
+        </ul>
+        <div class="footer-contacts">
+            <ul class="social-networks">
+                <li><a href=""><img src="img/twiter.png" alt=""></a></li>
+                <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/google.png" alt=""></a></li>
+                <li><a href=""><img src="img/rss.png" alt=""></a></li>
+            </ul>
+            <img src="img/footer-phone.png" alt="">
+            <ul class="phones">
+                <li>8 (3513) 250-173</li>
+                <li>8 (962) 487-01-73</li>
+            </ul>
+            <button class="show-admin-login"><img src="img/footer-button.png" alt=""></button>
+        </div>
+        <div class="login-form-wrapper login-admin hidden">
+            <h5>Входя для сотрудников УК "Развитие"</h5>
+            <form class="login-form login-form-admin" action="">
+                <div class="field">
+                    <label for="service">Служба: </label>
+                    <select name="service" id="service" class="login-inputs"></select>
+                </div>
+                <div class="field">
+                    <label for="admin-login">Логин:</label>
+                    <input type="text" id = "admin-login" class="login-inputs">
+                </div>
+                <div class="field">
+                    <label for="admin-password">Пароль: </label>
+                    <input type="password" id = "admin-password" class="login-inputs">
+                </div>
+            </form>
+            <div class="login-form-footer lff-admin">
+                <ul>
+                    <li><a href="">войти в кабинет сотрудника</a></li>
+                    <li><button class="hide-admin-login" >cкрыть</button></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="JS/main.js"> </script>
+</body>
+</html>
