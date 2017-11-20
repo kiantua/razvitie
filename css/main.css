@@ -347,6 +347,44 @@ footer button:hover {
     background-position-x: 100%;
 }
 
+.login-form-logged {
+    padding: 20px 20px 10px;
+}
+
+.login-form-logged .map {
+    width: 30%;
+    height: 220px;
+    display: inline-block;
+}
+
+.logged-right {
+    width: 60%;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+
+.logged-stats {
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.logged-stats h3,
+.logged-accident h3{
+    font-weight: normal;
+    display: inline;
+    font-size: 22px;
+}
+
+.logged-stats>div {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.logged-stats span {
+    float: right;
+}
+
+
 
 
 .login-admin {
