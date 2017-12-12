@@ -62,19 +62,31 @@
                         </div>
                     </div>
                     <div class="contacts-change">
-                        <h3>e-mail:</h3>
-                        <div class="input-item">
-                            <input type="email" id="e-mail">
-                            <h3>Получать уведомлени по почте:</h3>
+                        <div class="user-email">
+                            <h3>e-mail:</h3>
+                            <div class="input-item">
+                                <input type="email" id="e-mail">
+                            </div>
+                            <h3 class="center">Получать уведомлени по почте:</h3>
                             <input type="checkbox" class="checkbox" id="checkbox" />
                             <label for="checkbox"></label>
+                        </div>
+                        <div class="user-phone">
+                            <h3>Контактный телефон:</h3>
+                            <input type="tel" id="tel" name="tel" placeholder="">
+                            <img src="img/privateSettings/accepted.png" alt="">
+                            <p><b>Внимание!</b> Указанный телефон необходим для экстренной связи специалистов аварийной
+                                службы и бухгалтерии УК “Развитие”
+                                и не используется в целях рекламной рассылки. Указание контактного телефона -
+                                обязательное условия пользование личным
+                                кабинетом.</p>
                         </div>
 
                     </div>
 
                 </div>
                 <div class="rules-wrapper">
-                    <h1>правила рассмотрения заявки</h1>
+                    <h1>пользовательское соглашение</h1>
                     <div class="rules">
                         Воспользовавшись любой из указанных выше возможностей по использованию Сервиса вы подтверждаете, что:<br>
                         а) Ознакомились с условиями настоящего Соглашения в полном объеме до начала использования Сервиса.<br>
@@ -148,5 +160,13 @@
     </footer>
 </div>
 <script type="text/javascript" src="JS/main.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/maskinput.js"></script>
+
+<script type="text/javascript">
+    jQuery(function($){
+        $("#tel").mask("+7(999) 999-99-99");
+    });
+</script>
 </body>
 </html>

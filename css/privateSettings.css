@@ -38,10 +38,11 @@
 
 
 .input-item input[type="text"],
-.input-item input[type="email"]{
+.input-item input[type="email"]
+{
     font-size: 14px;
-    min-width: 231px;
-    width: 65%;
+    /*min-width: 231px;*/
+    width: 295px;
     border: none;
     height: 28px;
     border-radius: 8px;
@@ -113,7 +114,58 @@
     margin-top: 20px;
 }
 
+.change-password {
+    margin-bottom: 50px;
+}
 
+.contacts-change {
+}
+
+.contacts-change h3 {
+    display: inline-block;
+    text-align: right;
+}
+
+.contacts-change .input-item  {
+    margin-left: 12.5%;
+}
+
+.user-email h3:first-child {
+    width: 101px;
+}
+
+..user-email {
+    width: 40%;
+}
+
+.user-email,
+.user-phone{
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.user-phone {
+    width: 50%;
+}
+
+
+.user-phone input[type="tel"]
+{
+    font-size: 14px;
+    /*min-width: 231px;*/
+    width: 280px;
+    border: none;
+    height: 28px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 15px;
+    box-shadow: 0 3px 10px  #9a9d9d;
+    outline: none;
+}
 
 
 input[type="checkbox"] {
@@ -140,12 +192,30 @@ input[type="checkbox"]:checked + label {
         margin: 48px 5% 0;
     }
 
+    .input-item input[type="text"],
+    .input-item input[type="email"]{
+        width: 231px;
+    }
+
+    .user-phone input[type="tel"] {
+        width: 206px;
+    }
+
 }
 
 @media screen and (min-width:1401px) and (max-width: 1680px) {
     .form {
         margin: 48px 8% 0;
-
     }
+
+    .input-item input[type="text"],
+    .input-item input[type="email"]{
+        width: 263px;
+    }
+
+    .user-phone input[type="tel"] {
+        width: 248px;
+    }
+
 
 }
