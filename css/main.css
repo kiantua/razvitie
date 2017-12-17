@@ -347,12 +347,16 @@ footer button:hover {
     background-position-x: 100%;
 }
 
+/**** LOGGED *****/
+
+
+
 .login-form-logged {
     padding: 20px 20px 10px;
 }
 
 .login-form-logged .map {
-    width: 30%;
+    width: 35%;
     height: 220px;
     display: inline-block;
 }
@@ -384,6 +388,33 @@ footer button:hover {
     float: right;
 }
 
+.map img {
+    width: 157px;
+    height: 175px;
+}
+
+.logged-stats span {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.logged-adress a{
+    text-decoration: underline;
+}
+
+
+.disconnection-item table td:last-child {
+    text-align: right;
+}
+
+.disconnection-item table td:first-child{
+    width: 61px;
+    text-align: center;
+}
+
+.disconnection-item p {
+    font-size: 24px;
+}
 
 .com-off {
     background-image: url("../img/PCclient/vicluchenie.png");
@@ -478,6 +509,17 @@ footer button:hover {
         margin-left: -10px;
     }
 
+    .logged-stats span {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .disconnection-item p {
+        font-size: 20px;
+    }
+
+
+
 
 }
 
@@ -508,5 +550,17 @@ footer button:hover {
         line-height: 32px;
         vertical-align: middle;
     }
+
+    
+    .logged-stats span {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .disconnection-item p {
+        font-size: 20px;
+    }
+
+
 
 }
